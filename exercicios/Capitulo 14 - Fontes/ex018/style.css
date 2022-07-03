@@ -1,0 +1,32 @@
+@charset "UTF-8"
+
+
+
+head {
+    background-color: beige
+
+    
+}
+
+body {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    background-image: linear-gradient(to right, #F2C9DC, #0460D9);
+    text-align: justify;
+    width: 600px;
+    text-shadow: 1px 1px 1px white;
+    box-shadow: 5px 5px 15px #223240;
+    padding: 10px;
+    
+}
+
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    color: #000000;
+    font-weight: normal;
+
+}
+
+p {
+    color: #080808
+}

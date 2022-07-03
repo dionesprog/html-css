@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+    @font-face {
+        font-family: idroid;
+        src: url(pacote-projeto-d010/fontes/idroid.otf);
+    }
+
+    body {
+        background-color: #D5D3B3;
+        
+    }
+
+    header {
+        background-color: #0A5229;
+        color: white;
+        padding: 3px;
+    }
+
+    header > h1 {
+       text-align: center;
+    }
+
+    header > h2 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .menu > #home {
+        padding: 5px 10px 4px 10px;   
+    }
+
+    #home:hover {   
+        color: white;
+        background-color: #54aa79;  
+        border-radius: 4px 4px; 
+    }
+        
+    .menu > #noticias {
+        box-shadow: 3px 3px 0px #0A5229;
+        padding: 5px 10px 4px 10px;
+
+    }
+
+    #noticias:hover {   
+        color: white;
+        background-color: #54aa79; 
+        border-radius: 4px 4px;  
+    }
+    
+    .menu > #curiosidades {
+        box-shadow: 3px 3px 0px #0A5229;
+        padding: 5px 10px 4px 10px;
+    }
+
+    #curiosidades:hover {   
+        color: white;
+        background-color: #54aa79;  
+        border-radius: 4px 4px; 
+    }
+
+    .menu > #faleconosco {
+        box-shadow: 3px 3px 0px #0A5229;
+        padding: 5px 10px 4px 10px;
+    }
+
+    #faleconosco:hover {   
+        color: white;
+        background-color: #54aa79; 
+        border-radius: 4px 4px;  
+    }
+
+    main {
+        background-color: rgb(247, 245, 245);
+        text-align: justify;
+        width: 2000px;
+    }
+
+    article > h1 {
+        color: #0A5229
+    }
+
+    .texto {
+        text-align: justify;
+    }
+
+    .subtitulo {
+        background-image:linear-gradient(#54aa79, white )
+    }
+
+    picture {
+        background-color: white;
+    }
+    
+
+
+
+

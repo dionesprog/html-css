@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: minha;
+    src: url(fonts/Calistha.ttf);
+  }
+
+
+
+
+head {
+    background-color: beige;
+
+    
+
+    
+
+/* Tipos de Formatos()
+ * opentype (otf)
+ * truetype (ttf)
+ * embedded-opentype
+ * truetype-aat (Apple Advanced Typography)
+ * svg
+ */
+
+
+}
+
+
+
+body {
+
+    
+
+    background-image: linear-gradient(to right, #F2C9DC 0.1%,  #0460D9, #0468BF, #04ADBF, #F2B749 );
+    font-family: minha, sans-serif;
+    font-size: 2em;
+    width: 400px;
+    box-shadow: 3px 3px 3px blue;
+    padding: 10px;
+    color: #F2B749;
+    
+}
+    
+    
+
+
+h1 {
+
+    font-family: minha, Times, serif;
+    color: rgb(252, 252, 253);
+
+}
