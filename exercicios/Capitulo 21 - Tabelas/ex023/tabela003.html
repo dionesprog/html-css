@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+       caption {
+        background-color: rgb(99, 98, 98);
+        border: 1px solid black;
+        border-bottom: 0px;
+        padding: 10px;
+        font-size: 1.5em;
+        font-weight: bold;
+       }
+       
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            
+              
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: aqua;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+             
+        }
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Lista de Clientes
+        </caption>
+            <thead>
+                <tr>
+                    
+                    <th colspan="2">B</th>
+                    <th></th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3">D</td>
+                    <td>E</td>
+                    <td rowspan="3">F</td>
+                </tr>
+                <tr>
+                    
+                    
+                    
+                </tr>
+                <tr>
+                    <td>J</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>O</td>
+                    <td>P</td>
+                    
+                </tr>
+                <tfoot>
+                    <td>P</td>
+                    <th colspan="2">S</th>
+                    
+
+                </tfoot>
+            </tbody>
+    </table>
+    
+</body>
+</html>
